@@ -1,0 +1,590 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pesquisa sobre Games</title>
+
+    <link rel="stylesheet" href="estilo.css.css">
+</head>
+
+<body>
+
+    <div class="container" id="pagina-formulario">
+
+
+       
+
+        <div class="cabecalho" id="cabecalho-formulario">
+
+            <h1 id="titulo-formulario">
+                Formulário de Pesquisas sobre Games
+            </h1>
+
+            <p class="autor" id="autor-formulario">
+                SITE DESENVOLVIDO POR: ARTUR ALVES DE CARVALHO - 1º INFORMÁTICA
+            </p>
+
+        </div>
+
+
+        
+
+        <div class="imagem" id="imagem-games">
+
+            <img src="/projeto internet/imagens/images jogos digitais.jpg"
+                alt="Imagem sobre jogos digitais">
+
+        </div>
+
+
+        
+
+        <div class="formulario" id="formulario-games">
+
+            <form>
+
+
+                
+                <div class="caixa-formulario" id="dados-pessoais">
+
+                    <fieldset>
+
+                        <legend>Dados Pessoais</legend>
+
+
+                        <div class="campo" id="campo-nome">
+
+                            <label for="nome">
+                                Nome Completo:
+                            </label>
+
+                            <input type="text"
+                                id="nome"
+                                name="nome">
+
+                        </div>
+
+
+                        <div class="campo" id="campo-idade">
+
+                            <label for="idade">
+                                Idade:
+                            </label>
+
+                            <input type="number"
+                                id="idade"
+                                name="idade">
+
+                        </div>
+
+
+                        <div class="campo" id="campo-email">
+
+                            <label for="email">
+                                E-mail:
+                            </label>
+
+                            <input type="email"
+                                id="email"
+                                name="email">
+
+                        </div>
+
+
+                        <div class="campo" id="campo-sexo">
+
+                            <label>
+                                Sexo:
+                            </label>
+
+                            <div class="opcoes" id="opcoes-sexo">
+
+                                <label>
+                                    <input type="radio"
+                                        name="sexo"
+                                        value="masculino">
+                                    Masculino
+                                </label>
+
+                                <label>
+                                    <input type="radio"
+                                        name="sexo"
+                                        value="feminino">
+                                    Feminino
+                                </label>
+
+                                <label>
+                                    <input type="radio"
+                                        name="sexo"
+                                        value="outro">
+                                    Outro
+                                </label>
+
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+
+                </div>
+
+
+                
+
+                <div class="caixa-formulario" id="habitos-jogo">
+
+                    <fieldset>
+
+                        <legend>Hábitos de Jogo</legend>
+
+
+                        <div class="campo" id="campo-joga">
+
+                            <label>
+                                Você joga videogame?
+                            </label>
+
+                            <div class="opcoes" id="opcoes-joga">
+
+                                <label>
+                                    <input type="radio"
+                                        name="joga"
+                                        value="sim">
+                                    Sim
+                                </label>
+
+                                <label>
+                                    <input type="radio"
+                                        name="joga"
+                                        value="nao">
+                                    Não
+                                </label>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="campo" id="campo-anos">
+
+                            <label for="anos">
+                                Há quantos anos você joga?
+                            </label>
+
+                            <input type="number"
+                                id="anos"
+                                name="anos">
+
+                        </div>
+
+
+                        <div class="campo" id="campo-horas">
+
+                            <label for="horas">
+                                Quantas horas por dia você joga?
+                            </label>
+
+                            <input type="number"
+                                id="horas"
+                                name="horas">
+
+                        </div>
+
+
+                        <div class="campo" id="campo-periodo">
+
+                            <label>
+                                Qual período você costuma jogar?
+                            </label>
+
+                            <div class="opcoes" id="opcoes-periodo">
+
+                                <label>
+                                    <input type="checkbox"
+                                        name="periodo"
+                                        value="manha">
+                                    Manhã
+                                </label>
+
+                                <label>
+                                    <input type="checkbox"
+                                        name="periodo"
+                                        value="tarde">
+                                    Tarde
+                                </label>
+
+                                <label>
+                                    <input type="checkbox"
+                                        name="periodo"
+                                        value="noite">
+                                    Noite
+                                </label>
+
+                                <label>
+                                    <input type="checkbox"
+                                        name="periodo"
+                                        value="madrugada">
+                                    Madrugada
+                                </label>
+
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+
+                </div>
+
+
+                
+
+                <div class="caixa-formulario" id="plataformas">
+
+                    <fieldset>
+
+                        <legend>Plataformas Utilizadas</legend>
+
+                        <div class="opcoes" id="opcoes-plataformas">
+
+                            <label>
+                                <input type="checkbox"
+                                    name="plataforma"
+                                    value="pc">
+                                PC
+                            </label>
+
+                            <label>
+                                <input type="checkbox"
+                                    name="plataforma"
+                                    value="playstation">
+                                PlayStation
+                            </label>
+
+                            <label>
+                                <input type="checkbox"
+                                    name="plataforma"
+                                    value="xbox">
+                                Xbox
+                            </label>
+
+                            <label>
+                                <input type="checkbox"
+                                    name="plataforma"
+                                    value="nintendo">
+                                Nintendo Switch
+                            </label>
+
+                            <label>
+                                <input type="checkbox"
+                                    name="plataforma"
+                                    value="celular">
+                                Celular
+                            </label>
+
+                            <label>
+                                <input type="checkbox"
+                                    name="plataforma"
+                                    value="tablet">
+                                Tablet
+                            </label>
+
+                        </div>
+
+                    </fieldset>
+
+                </div>
+
+
+                
+
+                <div class="caixa-formulario" id="preferencias-jogos">
+
+                    <fieldset>
+
+                        <legend>Preferências de Jogos</legend>
+
+
+                        <div class="campo" id="campo-genero">
+
+                            <label for="genero">
+                                Gênero favorito:
+                            </label>
+
+                            <select name="genero"
+                                id="genero">
+
+                                <option>Ação</option>
+                                <option>Aventura</option>
+                                <option>RPG</option>
+                                <option>FPS</option>
+                                <option>MOBA</option>
+                                <option>Esporte</option>
+                                <option>Corrida</option>
+                                <option>Estratégia</option>
+                                <option>Simulação</option>
+                                <option>Terror</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="campo" id="campo-jogo-favorito">
+
+                            <label for="jogofavorito">
+                                Seu jogo favorito:
+                            </label>
+
+                            <input type="text"
+                                id="jogofavorito"
+                                name="jogofavorito">
+
+                        </div>
+
+
+                        <div class="campo" id="campo-personagem">
+
+                            <label for="personagem">
+                                Seu personagem favorito:
+                            </label>
+
+                            <input type="text"
+                                id="personagem"
+                                name="personagem">
+
+                        </div>
+
+
+                        <div class="campo" id="campo-ultimo-jogo">
+
+                            <label for="ultimoJogo">
+                                Qual foi o último jogo que você jogou?
+                            </label>
+
+                            <input type="text"
+                                id="ultimoJogo"
+                                name="ultimoJogo">
+
+                        </div>
+
+                    </fieldset>
+
+                </div>
+
+
+                
+
+                <div class="caixa-formulario" id="compras-gastos">
+
+                    <fieldset>
+
+                        <legend>Compras e Gastos</legend>
+
+
+                        <div class="campo" id="campo-compra">
+
+                            <label>
+                                Você compra jogos online?
+                            </label>
+
+                            <div class="opcoes" id="opcoes-compra">
+
+                                <label>
+                                    <input type="radio"
+                                        name="compra"
+                                        value="sim">
+                                    Sim
+                                </label>
+
+                                <label>
+                                    <input type="radio"
+                                        name="compra"
+                                        value="nao">
+                                    Não
+                                </label>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="campo" id="campo-gasto">
+
+                            <label for="gasto">
+                                Quanto você gasta por mês com jogos?
+                            </label>
+
+                            <input type="number"
+                                id="gasto"
+                                name="gasto">
+
+                        </div>
+
+
+                        <div class="campo" id="campo-loja">
+
+                            <label for="loja">
+                                Loja digital favorita:
+                            </label>
+
+                            <select name="loja"
+                                id="loja">
+
+                                <option>Steam</option>
+                                <option>Epic Games</option>
+                                <option>PlayStation Store</option>
+                                <option>Microsoft Store</option>
+                                <option>Nintendo eShop</option>
+                                <option>Outra</option>
+
+                            </select>
+
+                        </div>
+
+                    </fieldset>
+
+                </div>
+
+
+            
+
+                <div class="caixa-formulario" id="opiniao">
+
+                    <fieldset>
+
+                        <legend>Opinião</legend>
+
+
+                        <div class="campo" id="campo-gosta">
+
+                            <label for="gosta">
+                                O que mais gosta nos games?
+                            </label>
+
+                            <textarea name="gosta"
+                                id="gosta"></textarea>
+
+                        </div>
+
+
+                        <div class="campo" id="campo-melhorias">
+
+                            <label for="melhorias">
+                                Quais melhorias gostaria de ver nos jogos atuais?
+                            </label>
+
+                            <textarea name="melhorias"
+                                id="melhorias"></textarea>
+
+                        </div>
+
+
+                        <div class="campo" id="campo-comentario">
+
+                            <label for="comentario">
+                                Deixe um comentário adicional:
+                            </label>
+
+                            <textarea name="comentario"
+                                id="comentario"></textarea>
+
+                        </div>
+
+                    </fieldset>
+
+                </div>
+
+
+                
+
+                <div class="caixa-formulario" id="sites-games">
+
+                    <fieldset>
+
+                        <legend>Sites sobre Games</legend>
+
+                        <div class="lista" id="lista-sites">
+
+                            <ul>
+
+                                <li class="site-item" id="site-steam">
+
+                                    <a href="https://store.steampowered.com/"
+                                        target="_blank">
+                                        Steam — Loja de Jogos
+                                    </a>
+
+                                </li>
+
+
+                                <li class="site-item" id="site-ign">
+
+                                    <a href="https://www.ign.com/"
+                                        target="_blank">
+                                        IGN — Notícias e Informações sobre Games
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </fieldset>
+
+                </div>
+
+
+                
+
+                <div class="botoes" id="botoes-formulario">
+
+                    <input type="submit"
+                        id="botao-enviar"
+                        value="Enviar Pesquisa">
+
+                    <input type="reset"
+                        id="botao-limpar"
+                        value="Limpar Formulário">
+
+                </div>
+
+
+            </form>
+
+        </div>
+
+
+        
+
+        <div class="rodape" id="rodape-formulario">
+
+            <div class="link" id="link-inicio">
+
+                <a href="Internet.html">
+                    ← VOLTAR PARA A PÁGINA INICIAL
+                </a>
+
+            </div>
+
+            <div class="link" id="link-browsers">
+
+                <a href="browsers.html">
+                    ← VOLTAR PARA BROWSERS
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
+
